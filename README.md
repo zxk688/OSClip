@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ### 1. Download Datasets
 Download the benchmark datasets from public sources, for example:
 
-- AID / UCMD / NWPU: Refer to the `GeoRSAI/SSOUDA` repository or other official links.
+- AID / UCMD / NWPU: Refer to the [SSOUDA](https://github.com/GeoRSAI/SSOUDA) repository or other official links.
 
 ### 2. Organize Data Structure
 Place all datasets under the `data/` folder at the root of the repository. The recommended structure is:
@@ -86,28 +86,7 @@ python run.py --dataset_mode AID_UCMD_NWPU --phase test \
   --load_model OSClip/logs/classification_task/AID_UCMD_NWPU/checkpoints/best_model.pth
 ```
 
-### Common Parameters
-- `--dataset_mode`: Dataset combination name (see the dataset_mode implementation in code).  
-- `--phase`: Operation phase, e.g., `train_uda` for training, `test` for testing.  
-- `--training_phase`: Sub-phase of training, as some workflows split training into multiple phases.  
-- `--load_model`: Path to a model checkpoint (for continuing training or testing).
-
 ---
-
-## Output Directory and Model Paths
-
-By default, logs and checkpoints are saved under `OSClip/logs/`, for example:
-```
-OSClip/logs/classification_task/AID_UCMD_NWPU/checkpoints/best_model.pth
-OSClip/logs/classification_task/AID_UCMD_NWPU/events.out.tfevents...
-```
-Paths can be modified in the code configuration (`Logger` or `opts`).
-
----
-
-
-
-
 
 ## Citation
 
@@ -128,4 +107,4 @@ If you find this repository useful for your research, please cite our paper:
 ---
 
 ## Acknowledgements 
-This codebase is borrowed from [CLIP](), [CPE-CLIP] and []. We sincerely thank the authors for their valuable efforts
+This codebase is borrowed from [CLIP](https://github.com/openai/CLIP) and [CPE-CLIP](https://github.com/neuraptic/cpe-clip). We sincerely thank the authors for their valuable efforts.
