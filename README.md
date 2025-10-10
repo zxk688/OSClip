@@ -1,4 +1,5 @@
 # OSClip
+This is a repository for releasing a PyTorch implementation of our work [OSClip: Domain-Adaptive Prompt Tuning of Vision-Language Models for Open-Set Remote Sensing Image Classification](https://ieeexplore.ieee.org/document/11192766).
 
 
 ## Installation
@@ -119,10 +120,3 @@ We thank the contributors of AID, UCMD, NWPU datasets and related open-source to
 Please cite the datasets and repository if you use this work in publications or projects.
 
 ---
-
-## Contact
-
-For questions or collaborations, contact:  
-**Prof. Xiaokang Zhang**  
-School of Information Science and Engineering, Wuhan University of Science and Technology, China  
-Email: zxk688@wust.edu.cn
