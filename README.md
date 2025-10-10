@@ -105,18 +105,27 @@ Paths can be modified in the code configuration (`Logger` or `opts`).
 
 ---
 
-## FAQ & Recommendations
 
-- Ensure CUDA, cuDNN, and GPU drivers are compatible with your PyTorch version.  
-- For dependency conflicts, create a fresh conda environment with only the required packages.  
-- Ensure train/val/test index files match the data loader format.  
-- If training is slow or memory is limited, reduce `batch_size` or use mixed-precision training (if supported).
+
+
+
+## Citation
+
+If you find this repository useful for your research, please cite our paper:
+```
+@ARTICLE{10707611,
+  author={Zhang, Xiaokang and Wu, Wanjing and Zhang, Mi and Yu, Weikang and Ghamisi, Pedram},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Prototypical Unknown-Aware Multiview Consistency Learning for Open-Set Cross-Domain Remote Sensing Image Classification}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Remote sensing;Training;Adaptation models;Entropy;Sensors;Uncertainty;Scene classification;Generators;Adversarial machine learning;Noise measurement;Open-set;unsupervised domain adaptation;scene classification;remote sensing images;consistency learning},
+  doi={10.1109/TGRS.2024.3476151}}
+```
 
 ---
 
-## Acknowledgements and Citation
-
-We thank the contributors of AID, UCMD, NWPU datasets and related open-source tools.  
-Please cite the datasets and repository if you use this work in publications or projects.
-
----
+## Acknowledgements 
+This codebase is borrowed from [CLIP](), [CPE-CLIP] and []. We sincerely thank the authors for their valuable efforts
