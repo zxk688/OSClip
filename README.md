@@ -92,16 +92,16 @@ python run.py --dataset_mode AID_UCMD_NWPU --phase test \
 
 If you find this repository useful for your research, please cite our paper:
 ```
-@ARTICLE{10707611,
-  author={Zhang, Xiaokang and Wu, Wanjing and Zhang, Mi and Yu, Weikang and Ghamisi, Pedram},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Prototypical Unknown-Aware Multiview Consistency Learning for Open-Set Cross-Domain Remote Sensing Image Classification}, 
-  year={2024},
-  volume={},
+@ARTICLE{11192766,
+  author={Peng, Dingkang and Zhang, Xiaokang and Wu, Wanjing and Ma, Xianping and Yu, Weikang},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={OSClip: Domain-Adaptive Prompt Tuning of Vision-Language Models for Open-Set Remote Sensing Image Classification}, 
+  year={2025},
+  volume={18},
   number={},
-  pages={1-1},
-  keywords={Remote sensing;Training;Adaptation models;Entropy;Sensors;Uncertainty;Scene classification;Generators;Adversarial machine learning;Noise measurement;Open-set;unsupervised domain adaptation;scene classification;remote sensing images;consistency learning},
-  doi={10.1109/TGRS.2024.3476151}}
+  pages={25863-25875},
+  keywords={Remote sensing;Adaptation models;Tuning;Semantics;Visualization;Transformers;Training;Sensors;Optimization;Feature extraction;Domain adaptation;open-set;remote sensing images;scene classification;vision-language models (VLMs)},
+  doi={10.1109/JSTARS.2025.3617915}}
 ```
 
 ---
