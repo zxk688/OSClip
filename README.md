@@ -1,7 +1,7 @@
 # OSClip
 This is a repository for releasing a PyTorch implementation of our work [OSClip: Domain-Adaptive Prompt Tuning of Vision-Language Models for Open-Set Remote Sensing Image Classification](https://ieeexplore.ieee.org/document/11192766).
 
-
+![Framework](osclip.jpg)
 ## Installation
 
 
